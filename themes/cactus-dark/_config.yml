@@ -2,6 +2,7 @@ nav:
   Home: /
   About: /about/
   Blog: /archives/
+  Public speaking: /speaking/
   Projects: http://github.com/fhinkel
 
 projects_url: http://fhinkel.github.io
@@ -30,7 +31,7 @@ customize:
         github: http://github.com/fhinkel
         twitter: http://twitter.com/fhinkel
         linkedin: https://www.linkedin.com/in/fhinkel/
-    show_all_posts: all
+    show_all_posts: false
     post_count: 5
     highlight: rainbow
 
