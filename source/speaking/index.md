@@ -16,7 +16,7 @@ Franziska will discuss her perspective on Chrome V8 in Node.js, and what the Chr
  
 ### September 2017: BlinkOn
 
-Lightning talk: Node and V8
+Lightning talk: Type Profile in V8
 
 ### July 2017: JSChannel
 
