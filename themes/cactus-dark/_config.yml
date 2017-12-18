@@ -1,8 +1,9 @@
 nav:
   Home: /
-  About: /about/
-  Blog: /archives/
   Public speaking: /speaking/
+  Blog: /archives/
+  About: /about/
+
 
 projects_url: http://fhinkel.github.io
 
