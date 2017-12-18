@@ -5,8 +5,6 @@ layout: about
 
 ![](https://fhinkel.github.io/JSEngines-HowDoTheyEven/hinkelmann.jpeg)
 
-This site is built with [Hexo](https://hexo.io) and [Cactus theme](https://probberechts.github.io/cactus-dark/) (colors changed), see [GitHub](https://github.com/fhinkel/blog).
-
 This is **work in progress**. All posts were published on Medium first and are currently looking nicer on Medium. 
 
 What I do when I don't work on Node.js:
