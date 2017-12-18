@@ -48,5 +48,5 @@ plugins:
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
-        twitter_id: @fhinkel
+        twitter_id: '@fhinkel'
         image: images/hinkelmann.jpeg
