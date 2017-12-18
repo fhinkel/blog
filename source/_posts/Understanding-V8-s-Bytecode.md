@@ -1,7 +1,9 @@
 ---
 title: Understanding V8's Bytecode
 date: 2017-08-16
-tags: V8, compiler
+tags: 
+    - V8
+    - compiler
 ---
 V8 is Google’s open source JavaScript engine. Chrome, Node.js, and many other applications use V8. This article explains V8’s bytecode format — which is actually easy to read once you understand some basic concepts.
 

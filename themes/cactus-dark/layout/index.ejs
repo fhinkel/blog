@@ -4,7 +4,7 @@
   <% } %>
   <p style="display: inline">
     <% if (theme.customize.social_links) { %>
-      Find me on
+      Find her on
       <ul id="socialinfo">
         <% for(var i in theme.customize.social_links) { %>
           <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>"><i class="fa fa-<%= i %>"></i></a></li>
@@ -14,8 +14,8 @@
   </p>
 </section>
 
-<section id="writing">
-  <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
+<section id="blog">
+  <span class="h1"><a href="<%- url_for("archives") %>">Blog</a></span>
   <ul class="post-list">
     <% if (theme.customize.show_all_posts) { %>
       <% var show_posts = page.posts.sort('date', 'desc') %>

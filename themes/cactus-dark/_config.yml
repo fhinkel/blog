@@ -1,14 +1,14 @@
 nav:
   Home: /
   About: /about/
-  Writing: /archives/
-  Projects: http://github.com/probberechts
+  Blog: /archives/
+  Projects: http://github.com/fhinkel
 
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/fhinkel
 
 customize:
     gravatar:
-        email: 
+        email: fhinkel@vt.edu
     logo:
         enabled: true
         width: 50
@@ -30,7 +30,7 @@ customize:
         github: http://github.com/fhinkel
         twitter: http://twitter.com/fhinkel
         linkedin: https://www.linkedin.com/in/fhinkel/
-    show_all_posts: false
+    show_all_posts: all
     post_count: 5
     highlight: rainbow
 
