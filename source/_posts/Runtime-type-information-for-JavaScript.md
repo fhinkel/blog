@@ -1,7 +1,7 @@
 ---
-title: Runtime type information for JavaScript
+title: Runtime Type Information for JavaScript
 date: 2017-09-17
-tags:
+tags: V8
 ---
 ## Chrome V8 can now collect type information at runtime
 

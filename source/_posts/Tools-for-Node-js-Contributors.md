@@ -1,7 +1,7 @@
 ---
 title: Tools for Node.js Contributors
 date: 2017-03-25
-tags:
+tags: nodejs
 ---
 This article lists a few tools, tips, and tricks for Node core contributors.
 They are in addition to the process laid out in
