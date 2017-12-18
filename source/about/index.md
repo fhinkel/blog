@@ -3,7 +3,7 @@ title: about
 layout: about
 ---
 
-![](https://fhinkel.github.io/JSEngines-HowDoTheyEven/hinkelmann.jpeg)
+![](https://fhinkel.github.io/images/hinkelmann.jpeg)
 
 This is **work in progress**. All posts were published on Medium first and are currently looking nicer on Medium. 
 
