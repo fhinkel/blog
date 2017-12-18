@@ -119,9 +119,3 @@ Not V8 specific, but here are a few more helpful GDB commands. Happy debugging!
     # Enter repeats the last command.
 
 Thanks to Yang Guo for [adding his jlh command to V8’s gdbinit](https://codereview.chromium.org/2628293003) and thanks to Andreas Haas for proofreading and valuable corrections.
-
-* [Programming](https://medium.com/tag/programming?source=post)
-* [JavaScript](https://medium.com/tag/javascript?source=post)
-* [Nodejs](https://medium.com/tag/nodejs?source=post)
-* [Gdb](https://medium.com/tag/gdb?source=post)
-* [V8](https://medium.com/tag/v8?source=post)

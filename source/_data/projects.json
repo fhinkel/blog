@@ -1,0 +1,12 @@
+[
+    {
+       "name":"Interactive Shell - a Web App for Macaulay2",
+       "url":"http://web.macaulay2.com",
+       "desc":"With Interactive Shell you can build a web app for interactive command-line tools. We have developed Interactive Shell specifically for Macaulay2. Macaulay2 is a software system devoted to supporting research in algebraic geometry and commutative algebra, whose creation and development have been funded by the National Science Foundation since 1992. Interactive Shell has been used in courses at Cornell University, Harvard University, Georgia Tech, and Free University of Berlin."
+    },
+    {
+       "name":"This Site",
+       "url":"https://github.com/fhinkel/blog",
+       "desc":"Playing with hexo and templates 😊"
+    }
+]
