@@ -31,6 +31,7 @@ customize:
         github: http://github.com/fhinkel
         twitter: http://twitter.com/fhinkel
         linkedin: https://www.linkedin.com/in/fhinkel/
+        medium: https://medium.com/@fhinkel
     show_all_posts: false
     post_count: 5
     highlight: rainbow
