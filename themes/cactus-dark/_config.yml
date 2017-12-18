@@ -50,5 +50,4 @@ miscellaneous:
     open_graph: # see http://ogp.me
         fb_app_id:
         fb_admins:
-        twitter_id:
         google_plus:
