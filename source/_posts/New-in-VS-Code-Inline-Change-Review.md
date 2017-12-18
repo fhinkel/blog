@@ -1,6 +1,6 @@
 ---
 title: 'New in VS Code: Inline Change Review'
-date: 2017-12-18 17:20:49
+date: 2017-11-26
 tags: git
 ---
 ## Expandable Git annotations in the gutter like in WebStorm 🎉
