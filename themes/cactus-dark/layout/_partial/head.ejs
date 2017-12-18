@@ -40,7 +40,7 @@
     <!-- styles -->
     <%- css('css/style') %>
     <!-- rss -->
-    <% if (theme.rss === '' && config.feed && config.feed.path) { %>
+    <% if (theme.rss === 'plugin' && config.feed && config.feed.path) { %>
       <% theme.rss = config.feed.path %>
     <% } %>
     <% if (theme.rss) { %>

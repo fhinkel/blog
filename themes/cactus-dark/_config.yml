@@ -4,7 +4,7 @@ nav:
   Blog: /archives/
   Projects: http://github.com/fhinkel
 
-projects_url: http://github.com/fhinkel
+projects_url: http://fhinkel.github.io
 
 customize:
     gravatar:
@@ -35,7 +35,9 @@ customize:
     highlight: rainbow
 
 # RSS
-rss: false
+# if plugin, use the hexo-generator-feed plugin.
+rss: plugin
+
 
 # Plugins
 plugins:
