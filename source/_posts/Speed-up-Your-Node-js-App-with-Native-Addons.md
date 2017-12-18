@@ -1,7 +1,9 @@
 ---
 title: Speed up Your Node.js App with Native Addons
 date: 2017-12-07
-tags:
+tags: 
+    - nodejs
+    - performance
 ---
 # What’s faster, C++ or JavaScript?
 

@@ -4,8 +4,6 @@ date: 2017-01-17
 tags: 
     - V8
     - nodejs
-desc: foo bar
-description: foo bar baz
 ---
 
 # Or in other projects that embed V8
