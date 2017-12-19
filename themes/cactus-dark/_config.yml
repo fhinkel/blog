@@ -4,7 +4,7 @@ nav:
   Blog: /archives/
   About: /about/
 
-projects_url: http://fhinkel.github.io
+##: http://fhinkel.github.io
 
 customize:
     gravatar:
