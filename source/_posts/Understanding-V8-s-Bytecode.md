@@ -96,4 +96,4 @@ The last instruction adds `r0` to the accumulator, resulting in`43`. `6` is anot
 
 At a first glance, V8’s bytecode might look rather cryptic, especially with all the extra information printed. But once you know that Ignition is a register machine with an accumulator register, you can figure out what most bytecodes do.
 
-> Note: The bytecode described here is from V8 version 6.2, Chrome 62, and a (not > yet released) version of Node 9. We always work on V8 to improve performance and memory consumption. In other V8 versions, the details might be different.
+> Note: The bytecode described here is from V8 version 6.2, Chrome 62, and a (not yet released) version of Node 9. We always work on V8 to improve performance and memory consumption. In other V8 versions, the details might be different.
