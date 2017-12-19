@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14",
+        "url":"http://geni.us/VRoKJW",
+        "desc":"Need to upgrade your C++ knowledge from back in the days to modern C++? This book is well written. A lot of topics are conform with the Chromium C++ Styleguide - and explain why it is good practise."
+     },
+    {
+       "name":"Computer Systems: A Programmer's Perspective",
+       "url":"http://geni.us/ySGa",
+       "desc":"Really goes into the details: processor architecture, memory hierarchy, system-level I/O, concurrent programming, and many more. A must read if you want a deeper understanding of computer systems."
+    },
+    {
+       "name":"Compilers: Principles, Techniques, and Tools (2nd Edition)",
+       "url":"http://geni.us/dSsWMRU",
+       "desc":"Dragon Book. If you want to learn the fundamentals about compilers, this is the book to read."
+    }
+]
+
