@@ -9,7 +9,7 @@ Get types like string, number, null, or custom classes at runtime. V8 can now co
 
 JavaScript is a dynamically typed language. But most code is written with fixed types in mind. When debugging JavaScript, itis helpful to know the types of variables and parameters at runtime. It is often hard to infer types for complex code. Type profiling provides this information at runtime.
 
-![](https://cdn-images-1.medium.com/max/2000/1*CLdktAPyagGXXZQYUS5UtA.png) <span class="figcaption_hack">[https://github.com/fhinkel/type-profile](https://github.com/fhinkel/type-profile)</span>
+{% asset_img img1.png "https://github.com/fhinkel/type-profile" %}
 
     function foo(x) {
         if (x < 2) {
@@ -28,8 +28,8 @@ Type profiling is implemented in V8 and can be used via the **V8 inspector proto
 
 I look forward to all the tools the community will come up with that use type profile. I’m sure there are many use cases that I haven’t even considered yet.  If you are already working on a prototype, please share!
   
-<span class="figcaption_hack">foo() has only been called with Objects, it always returned strings.</span>
+{% asset_img onlyObjects.png "foo() has only been called with Objects, it always returned strings." %}
 
-<span class="figcaption_hack">foo() has been called with strings and Rectangles. It always returns strings.</span>
+{% asset_img returnStrings.png "foo() has been called with strings and Rectangles. It always returns strings." %}
 
-<span class="figcaption_hack">foo() has returned strings and numbers.</span>
+{% asset_img stringsAndNumbers.png "foo() has returned strings and numbers." %}
