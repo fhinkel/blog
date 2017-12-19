@@ -25,17 +25,15 @@ If we “warm up” TurboFan and then start computing prime numbers, JavaScript 
 
 > If we use `long` instead of `int` as the parameter for C++’s `prime()` function, it slows down the modulo operator so badly that JavaScript ends up being faster than C++ *🤷🏻‍*. **Always measure performance, don’t blindly make ****changes**** because somebody said “C++ is faster than JavaScript.”**
 
-<script src="https://gist.github.com/fhinkel/819c7292c4f503a5426077aaf0400157.js"></script>
-
-<span class="figcaption_hack">Index.js that runs prime number computations in JavaScript and C++ side by side.</span>
+{% gist 819c7292c4f503a5426077aaf0400157 %}<span class="figcaption_hack">Index.js that runs prime number computations in JavaScript and C++ side by side.</span>
 
 We could easily improve the algorithm. But since we’re not interested in absolute performance, it doesn’t matter as long as both implementations use the same algorithm.
 
-<script src="https://gist.github.com/fhinkel/2876ea53ab539c8d7c8e7026d5cdec72.js"></script><span class="figcaption_hack">N-th prime implementation in JavaScript.</span>
+{% gist 2876ea53ab539c8d7c8e7026d5cdec72 %}<span class="figcaption_hack">N-th prime implementation in JavaScript.</span>
 
 The implementation of the algorithm in `primes.cc` is exactly the same as in `primes.js` modulo syntax. What’s different in the addon is how the function `prime()` is exported:
 
-<script src="https://gist.github.com/fhinkel/3596428e607e927b922615ba74152037.js"></script><span class="figcaption_hack">Initializing the native module with N-API.</span>
+{% gist 3596428e607e927b922615ba74152037 %}<span class="figcaption_hack">Initializing the native module with N-API.</span>
 
 This example uses the [N-API](https://nodejs.org/api/n-api.html) for the [Node.js Native Addon](https://nodejs.org/api/addons.html). **The N-API is a C API that ensures stability of the Application Binary Interface (ABI) across versions of Node.js.** That means, compiled once, the module can be used for different versions of Node (8 and higher) without re-compilation. As C++ is often more convenient than C, we use a C++ wrapper package, [node-addon-api](https://www.npmjs.com/package/node-addon-api). For more info on getting started with N-API check out the [documentation](https://nodejs.org/dist/latest/docs/api/n-api.html) or [GitHub repository](https://github.com/nodejs/abi-stable-node).
 
