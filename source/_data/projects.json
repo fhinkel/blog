@@ -5,6 +5,11 @@
        "desc":"With Interactive Shell you can build a web app for interactive command-line tools. We have developed Interactive Shell specifically for Macaulay2. Macaulay2 is a software system devoted to supporting research in algebraic geometry and commutative algebra, whose creation and development have been funded by the National Science Foundation since 1992. Interactive Shell has been used in courses at Cornell University, Harvard University, Georgia Tech, and Free University of Berlin."
     },
     {
+        "name":"Runtime Type Information",
+        "url":"https://github.com/fhinkel/type-profile",
+        "desc":"Collect runtime type information 😻 of your JavaScript code. The V8 inspector protocol provides access to the type information. Since the inspector is available in Node, it's easy to write modules that utilize type information. This repo is a very simple demo of this."
+    },
+    {
        "name":"This Site",
        "url":"https://github.com/fhinkel/blog",
        "desc":"Playing with templates 😊. This site is built with Hexo and the Cactus-dark theme."
