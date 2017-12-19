@@ -23,7 +23,7 @@ V8’s optimizing compiler TurboFan uses information collected at runtime to spe
 
 If we “warm up” TurboFan and then start computing prime numbers, JavaScript is faster on the first 25 prime numbers, because calling into C++ comes with a small performance overhead. For larger prime numbers, the C++ addon is faster.
 
-> If we use `long` instead of `int` as the parameter for C++’s `prime()` function, it slows down the modulo operator so badly that JavaScript ends up being faster than C++ *🤷🏻‍*. **Always measure performance, don’t blindly make ****changes**** because somebody said “C++ is faster than JavaScript.”**
+> If we use `long` instead of `int` as the parameter for C++’s `prime()` function, it slows down the modulo operator so badly that JavaScript ends up being faster than C++ 🤷🏻‍. **Always measure performance, don’t blindly make changes because somebody said “C++ is faster than JavaScript.”**
 
 {% gist 819c7292c4f503a5426077aaf0400157 %}<span class="figcaption_hack">Index.js that runs prime number computations in JavaScript and C++ side by side.</span>
 
