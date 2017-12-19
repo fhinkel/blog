@@ -37,7 +37,9 @@ So far the basics, time to look at the bytecode for an actual function.
 
     incrementX({x: 42});  // V8’s compiler is lazy, if you don’t run a function, it won’t interpret it.
 
-> If you want to see** V8's bytecode of JavaScript code**, you can print it by calling [D8](https://github.com/v8/v8/wiki/Using-D8) or Node.js (8.3 or higher) with the flag`--print-bytecode`. For Chrome, start Chrome from the command line with `--js-flags="--print-bytecode"`, see [Run Chromium with flags](https://www.chromium.org/developers/how-tos/run-chromium-with-flags).
+{% blockquote %}
+If you want to see** V8's bytecode of JavaScript code**, you can print it by calling [D8](https://github.com/v8/v8/wiki/Using-D8) or Node.js (8.3 or higher) with the flag `--print-bytecode`. For Chrome, start Chrome from the command line with `--js-flags="--print-bytecode"`, see [Run Chromium with flags](https://www.chromium.org/developers/how-tos/run-chromium-with-flags).
+{% endblockquote %}
   
     ...
     [generating bytecode for function: incrementX]
