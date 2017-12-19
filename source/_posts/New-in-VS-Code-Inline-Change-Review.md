@@ -9,15 +9,13 @@ Since VS Code [1.18](https://code.visualstudio.com/updates/v1_18), you can expan
 
 The Git annotations in the gutter are subtle yet helpful. **They instantly draw my eyes to the lines that I changed.** Together with the inline view of the diff and the revert button, they are invaluable to me.
 
-I need the inline change review when I delete too many lines or type in the wrong window. I need it when I make multiple changes and realize one of them doesn’t work. I need it when I refactor and want to compare to the previous version. I’m so happy this feature is in [VS Code now](https://code.visualstudio.com/updates/v1_18#_inline-change-review) ❤️. I could do all of this on the command line, but inline is clearer because I don’t have to adjust to a different view or sort through all the other changes.
+I need the inline change review when I delete too many lines or type in the wrong window. I need it when I make multiple changes and realize one of them doesn’t work. I need it when I refactor and want to compare to the previous version. I’m so happy this feature is in [VS Code now](https://code.visualstudio.com/updates/v1_18#_inline-change-review) 💚. I could do all of this on the command line, but inline is clearer because I don’t have to adjust to a different view or sort through all the other changes.
 
-![](https://cdn-images-1.medium.com/max/1600/1*svHpYnE3CPyZ6HajAXb7QQ.png)
-<span class="figcaption_hack">Annotations that show Git changes. Blue means changed, green added, and red deleted lines.</span>
+{% asset_img img1.png "Annotations that show Git changes. Blue means changed, green added, and red deleted lines." %}
 
 A blue bar in the gutter indicates that the line was changed. For new lines, the bar is green. A little red triangle symbolizes deleted lines.
 
-![](https://cdn-images-1.medium.com/max/1600/1*9ACdd-yopp80ufoNKFrorw.png)
-<span class="figcaption_hack">The annotations in the gutter expand! Click on an annotation in the gutter to see the changes. You can also revert right there if you need to.</span>
+{% asset_img img2.png "The annotations in the gutter expand! Click on an annotation in the gutter to see the changes. You can also revert right there if you need to." %}
 
 Click on a gutter annotation to see the changes. I often find this more convenient than looking at the diff in other views. There is a revert button next to every change. In many cases, clicking the button is much quicker than using `git checkout --patch` (tough `git commit -p` is one of my favorite tools).
 
