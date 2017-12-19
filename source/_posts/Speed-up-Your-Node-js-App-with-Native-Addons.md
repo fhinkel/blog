@@ -13,13 +13,13 @@ The JavaScript and the C++ implementation use the same algorithm. My measurement
 
 > If your Node app’s sole purpose is to compute prime numbers and you don’t want to use a fast lookup table, please rely on this benchmark 100%. For anything else, this benchmark is probably useless.
 
-![Computing one million prime numbers without warm up.](WithOpt.png)Computing one million prime numbers without warm up.
+{% asset_img WithOpt.png "Computing one million prime numbers without warm up." %}
 
 Except for the smallest computations, C++ is faster than JavaScript by a factor 1.5, e.g., C++ takes 10 seconds where JavaScript takes 15 seconds. If you have a similar workload (computation heavy, few jumps between C++ and JavaScript), you might want to consider writing a native addon.
 
 V8’s optimizing compiler TurboFan uses information collected at runtime to speed up future computations. We can see in the chart above that TurboFan has finished compiling when we get to the 90th prime number, speeding up JavaScript substantially.
 
-![Computing the first 50 prime numbers with warm up.](WithOpt50.png)Computing the first 50 prime numbers with warm up.
+{% asset_img WithOpt50.png "Computing the first 50 prime numbers with warm up." %}
 
 If we “warm up” TurboFan and then start computing prime numbers, JavaScript is faster on the first 25 prime numbers, because calling into C++ comes with a small performance overhead. For larger prime numbers, the C++ addon is faster.
 
@@ -45,7 +45,7 @@ This example uses the [N-API](https://nodejs.org/api/n-api.html) for the [Node.j
 
 JavaScript is almost as fast as C++ for tasks like this prime number calculation. Such performance is possible with [modern JavaScript engines because they use adaptive optimizations](https://youtu.be/p-iiEDtpy6I). Without optimizations, the performance difference is much bigger.
 
-![Computing prime numbers without adaptive optimizations.](WithoutOpt.png)Computing prime numbers without adaptive optimizations.
+{% asset_img WihoutOpt.png "Computing prime numbers without adaptive optimizations."}
 
 In the prime number example, JavaScript without optimizations is 10 times slower than C++, not only 0.5 times. You can turn off optimizations with V8’s `--no-opt` flag, e.g.., by running `node --no-opt index.js`.
 
