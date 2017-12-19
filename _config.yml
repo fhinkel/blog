@@ -5,14 +5,14 @@
 # Site
 title: Franziska Hinkelmann
 subtitle: Compiler Engineer at Google. Node.js Monkey Patcher.
-description: Compiler Engineer at Google. Node.js  ✨🐢🚀✨ Monkey Patcher and TSC member. 💙 JavaScript. 
+description: Compiler Engineer at Google.  ✨🐢🚀✨  Node.js Monkey Patcher and TSC member. 💙 JavaScript. 
 author: Franziska Hinkelmann
 language: english
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://fhinkel.github.io
+url: http://fhinkel.rocks
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

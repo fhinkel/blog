@@ -1,11 +1,11 @@
 ---
-title: about
+title: Franziska Hinkelmann
 layout: about
 ---
 
 ![](https://fhinkel.github.io/images/hinkelmannSmall.jpeg)
 
-### **Please get in touch via email (fhinkel@vt.edu) if you’d like for Franziska to speak at your event.**
+**Please get in touch via email (fhinkel@vt.edu) if you’d like for Franziska to speak at your event.**
 
 [Interview](http://www.codepancake.com/spotlight-number-78-software-engineer-franziska/) with Code Pancake.
 
