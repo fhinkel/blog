@@ -9,17 +9,19 @@ V8 is Google’s open source JavaScript engine. Chrome, Node.js, and many other 
 
 *This post is [available in Chinese](https://zhuanlan.zhihu.com/p/28590489), translated by [justjavac](https://medium.com/@justjavac).*
 
-![](https://cdn-images-1.medium.com/max/1600/1*g8Tutq52nx6x44ELgz_UWg.png) Ignition! We have lift-off! Interpreter Ignition is part of our compiler pipeline since 2016.
+{% asset_img img1.png "Ignition! We have lift-off! Interpreter Ignition is part of our compiler pipeline since 2016." %}
 
 When V8 compiles JavaScript code, the parser generates an abstractsyntax tree. A syntax tree is a tree representation of the syntactic structure of the JavaScriptcode.Ignition, the interpreter, generates bytecode from this syntax tree.TurboFan, the optimizing compiler, eventually takes the bytecode and generates optimized machine code from it.
 
-![](https://cdn-images-1.medium.com/max/1600/1*ZIH_wjqDfZn6NRKsDi9mvA.png) V8’s compiler pipeline
+{% asset_img img2.png "V8’s compiler pipeline" %}
 
 If you want to know why we have two execution modes, you can check out my video from JSConfEU:
 {% youtube p-iiEDtpy6I %}
 
 
 **Bytecode is an abstraction of machine code**. Compiling bytecode to machine code is easier if the bytecode was designed with the same computational model as the physical CPU. This is why interpreters are often register or stack machines.**Ignition is a register machine with an accumulator register.**
+
+{% asset_img img3.png %}
 
 You can think of V8's bytecodes **as small building blocks**that make up any JavaScript functionality when composed together. V8 has several hundred bytecodes. There are bytecodes for operators like `Add` or `TypeOf`, or for property loads like `LdaNamedProperty`.V8 also has some pretty specific bytecodes like `CreateObjectLiteral`or `SuspendGenerator`. The header file [bytecodes.h](https://github.com/v8/v8/blob/master/src/interpreter/bytecodes.h) defines the complete list of V8’s bytecodes.
 
@@ -60,13 +62,12 @@ We can ignore most of the output and focus on the actual bytecodes. Here is what
 
 `LdaSmi`` [1]` loads the constant value `1` in the accumulator.
 
-![](https://cdn-images-1.medium.com/max/1600/1*WIECS2Gd701BnheqXrWbag.png)
-
+{% asset_img smallImage1.png %}
 ### Star r0
 
 Next, `Star r0` stores the value that is currently in the accumulator, `1,` in the register `r0`.
 
-![](https://cdn-images-1.medium.com/max/1600/1*271aYN7VC6ltaleyDfwhXg.png)
+{% asset_img smallImage2.png %}
 
 ### `LdaNamedProperty a0, [0], [4]`
 
@@ -81,13 +82,13 @@ What is the operand with value `4` used for? It is an index of the so-called *fe
 
 Now the registers look like this:
 
-![](https://cdn-images-1.medium.com/max/1600/1*sGFN376VKgf2hWXctBqZnw.png)
+{% asset_img smallImage3.png %}
 
 ### Add r0, [6]
 
 The last instruction adds `r0` to the accumulator, resulting in`43`. `6` is another index of the feedback vector.
 
-![](https://cdn-images-1.medium.com/max/1600/1*LAHuYIvZaXX8jH_STNHfmQ.png)
+{% asset_img smallImage4.png %}
 
 ### Return
 
