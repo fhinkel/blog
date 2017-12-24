@@ -1,9 +1,9 @@
 {
-  "name": "fhinkel rocks",
+  "name": "fhinkelrocks",
   "version": "1.0.0",
   "private": false,
   "hexo": {
-    "version": "3.4.3"
+    "version": "3.4.4"
   },
   "dependencies": {
     "hexo": "^3.2.0",
