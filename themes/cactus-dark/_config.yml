@@ -43,7 +43,7 @@ rss: plugin
 # Plugins
 plugins:
     disqus_shortname: fhinkel # Disqus Comments Shortname
-    google_analytics: UA-111379301-2 # enter the tracking ID for your Google Analytics
+    google_analytics: UA-111379301-1 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:
