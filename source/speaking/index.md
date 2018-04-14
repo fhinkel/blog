@@ -6,7 +6,15 @@ description: Franziska's public speaking appearances
 
 My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDoTheyEven) and [here](https://github.com/fhinkel/PerformanceProfiling). For more talks on V8, try [this playlist](https://www.youtube.com/playlist?list=PL65pp6Tpk692lL85jvoOAT_e9Yuzz_nwA).
 # Public speaking
-### [May 2018: TNG Big Techday](https://www.tngtech.com/big-techday.html)
+### [November 2018: JSConf Columbia](https://jsconf.co/)
+
+### [October 2018: NodeConf Argentina](https://2018.nodeconf.com.ar/)
+
+### [May 2018: RevolutionConf](https://revolutionconf.com/)
+
+Speed, Speed, Speed: JavaScript vs C++ vs WebAssembly
+
+In Node.js, we can use WebAssembly modules and native C++ addons. If your app has performance critical parts, should you stay in JavaScript? Or write a native C++ addon? Or use WebAssembly? We’ll look at how these options compare performance wise and which one is best for different workloads. So the next time you need to optimize for speed, you know your options.
 
 ### [November 2017: NodeFest](http://nodefest.jp/2017/)
 
