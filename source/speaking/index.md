@@ -12,13 +12,13 @@ My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDo
 
 #### Speed, Speed, Speed: JavaScript vs C++ vs WebAssembly
 
-In Node.js, we can use WebAssembly modules and native C++ addons. If your app has performance critical parts, should you stay in JavaScript? Or write a native C++ addon? Or use WebAssembly? We’ll look at how these options compare performance wise and which one is best for different workloads. So the next time you need to optimize for speed, you know your options.
+> In Node.js, we can use WebAssembly modules and native C++ addons. If your app has performance critical parts, should you stay in JavaScript? Or write a native C++ addon? Or use WebAssembly? We’ll look at how these options compare performance wise and which one is best for different workloads. So the next time you need to optimize for speed, you know your options.
 
 ### [November 2017: NodeFest](http://nodefest.jp/2017/)
 
 ### [October 2017: Node Interactive](http://events.linuxfoundation.org/events/node-interactive)
 
-Franziska will discuss her perspective on Chrome V8 in Node.js, and what the Chrome V8 team is doing to continue to support Node.js. Want to know what the future of browser development looks like? This is a must-attend keynote.  ([Featured Speakers](http://events.linuxfoundation.org/events/node-interactive/program/featured-speakers#franzi-hinkelmann))
+> Franziska will discuss her perspective on Chrome V8 in Node.js, and what the Chrome V8 team is doing to continue to support Node.js. Want to know what the future of browser development looks like? This is a must-attend keynote.  ([Featured Speakers](http://events.linuxfoundation.org/events/node-interactive/program/featured-speakers#franzi-hinkelmann))
  
 ### September 2017: BlinkOn
 
