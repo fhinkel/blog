@@ -8,7 +8,7 @@ subtitle: Google Cloud Platform. Node.js Monkey Patcher.
 description: Ph.D software engineer working on Google Cloud Platform. Node.js ✨🐢🚀✨ Technical Steering Committee. 💚 JavaScript. 
 author: Franziska Hinkelmann
 language: english
-timezone:
+timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
