@@ -8,6 +8,14 @@ My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDo
 
 ### [October 2018: NodeConf Argentina](https://2018.nodeconf.com.ar/)
 
+### [October 2018: JS Interactive](https://events.linuxfoundation.org/events/js-interactive-2018/)
+
+#### What's New in Node.js Core?
+
+> Node.js 10 just entered Long Term Support (LTS). Let’s look at some exciting new features and what the future holds for Node.js Core.
+
+### [August 2018: Cloud Next Extended 2018 @GDGNYC](https://www.meetup.com/gdgnyc/events/244123962/)
+
 ### [May 2018: RevolutionConf](https://revolutionconf.com/)
 
 #### Speed, Speed, Speed: JavaScript vs C++ vs WebAssembly
