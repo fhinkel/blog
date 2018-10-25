@@ -1,7 +1,9 @@
 ---
 title: Tools for Node.js Contributors
 date: 2017-03-25
-tags: nodejs
+tags: 
+  - nodejs
+  - open-source
 ---
 This article lists a few tools, tips, and tricks for Node core contributors.  They are in addition to the process laid out in [Contributing](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md) and the [collaborator guide](https://github.com/nodejs/node/blob/master/COLLABORATOR_GUIDE.md).
 

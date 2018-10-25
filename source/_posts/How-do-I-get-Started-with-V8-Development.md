@@ -1,7 +1,9 @@
 ---
 title: How do I get Started with V8 Development?
 date: 2017-07-30
-tags: V8
+tags: 
+  - V8
+  - open-source
 ---
 Are you interested in understanding more about compilers, virtual machines, JavaScript engines, and maybe even want to contribute to V8?<br>  <br> Have you never taken a compiler course (maybe no formal CS course) or no experience in C++? Fear not, nobody was born with that knowledge. You don’t need to understand all aspects of compilers to make a contribution. Here are some resources that might help you on the way.
 

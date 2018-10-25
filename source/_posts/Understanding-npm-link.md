@@ -4,7 +4,6 @@ date: 2018-10-25 05:12:01
 tags:
   - JavaScript
   - npm
-  - npm link
   - git
   - nodejs
 ---
@@ -16,7 +15,7 @@ Sometimes you need to work on application code and a dependency at the same time
 
 You could make changes in `node_modules` and manually copy the changes to the `git` repository of the dependency once you are done. But there is a much cleaner approach: `npm link`.
 
-## Usage
+### Usage
 Package linking is a two-step process:
 
 1. Create a global symlink for a dependency with `npm link`. A **symlink**, short for symbolic link, is a shortcut that points to another directory or file on your system.
@@ -24,10 +23,12 @@ Package linking is a two-step process:
 
 [comment]: <> (render code correctly)
 
-    cd ~/projects/some-dep
-    npm link  # Step 1.
-    cd ~/projects/my-app
-    npm link some-dep  # Step 2.
+``` bash
+cd ~/projects/some-dep
+npm link  # Step 1.
+cd ~/projects/my-app
+npm link some-dep  # Step 2.
+``` 
 
 {% asset_img img2.png %}
 
@@ -39,25 +40,30 @@ You can edit, transpile, run tests, or commit as usual in `some-dep`. All while 
 ## Debugging
 If you use [VSCode](https://code.visualstudio.com/) and want to set breakpoints in `some-dep`, you need to enable symlinks in the debugger for `my-app`. Do so by setting
 
-    “runtimeArgs”: [
-      “--preserve-symlinks”
-    ]
+``` js
+“runtimeArgs”: [
+  “--preserve-symlinks”
+]
+```
 
 in `launch.json`.
 
 {% asset_img img3.png "Enable symlinks in debug configuration in Code" %}
 
-
 ## Back to Normal
 How do you switch back to *normal* dependencies? When you don’t want to use the local version of `some-de`p anymore, delete the symlink. But careful, `npm unlink` is an alias for `npm uninstall`, it does not mirror the behavior of `npm link`.
 
-    cd ~/projects/my-app
-    npm uninstall --no-save some-dep && npm install 
+``` bash
+cd ~/projects/my-app
+npm uninstall --no-save some-dep && npm install 
+```
 
 You can clean up the global link, though its presence won’t interfere with `my-app`.
 
-    cd ~/projects/some-dep
-    npm uninstall  # Delete global symlink
+``` bash
+cd ~/projects/some-dep
+npm uninstall  # Delete global symlink
+```
 
 ## Conclusion
 I used `npm link` while working on dependencies of the [client libraries](https://github.com/googleapis/google-cloud-node) for Google Cloud Platform. All our libraries use the module `@google-cloud/common`. In some cases I needed to immediately see the changes in the larger libraries instead of in isolation in `common`.
