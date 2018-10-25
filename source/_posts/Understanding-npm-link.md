@@ -21,8 +21,6 @@ Package linking is a two-step process:
 1. Create a global symlink for a dependency with `npm link`. A **symlink**, short for symbolic link, is a shortcut that points to another directory or file on your system.
 2. Tell the application to use the global symlink with `npm link some-dep`.
 
-[comment]: <> (render code correctly)
-
 ``` bash
 cd ~/projects/some-dep
 npm link  # Step 1.
