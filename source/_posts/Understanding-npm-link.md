@@ -28,14 +28,16 @@ cd ~/projects/some-dep
 npm link  # Step 1.
 cd ~/projects/my-app
 npm link some-dep  # Step 2.
-``` 
+```
 
 {% asset_img img2.png %}
 
 You can edit, transpile, run tests, or commit as usual in `some-dep`. All while `my-app` runs with the changes you made to `some-dep`. The symbolic links are local and will not be committed to `git`. When you are ready to share your code, publish a new version of `some-dep` or push to a branch that you specify in `my-app`’s `package.json`:
 
-    cd ~/projects/my-app
-    npm install — save some-dep@fhinkel/some-dep#experimental-branch
+``` bash
+cd ~/projects/my-app
+npm install — save some-dep@fhinkel/some-dep#experimental-branch
+```
 
 ## Debugging
 If you use [VSCode](https://code.visualstudio.com/) and want to set breakpoints in `some-dep`, you need to enable symlinks in the debugger for `my-app`. Do so by setting
