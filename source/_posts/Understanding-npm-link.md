@@ -4,7 +4,7 @@ date: 2018-10-25 05:12:01
 tags:
   - JavaScript
   - npm
-  - npm Link
+  - npm link
   - git
   - nodejs
 ---
