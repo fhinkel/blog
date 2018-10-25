@@ -4,7 +4,9 @@ description: Franziska's public speaking appearances
 ---
 My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDoTheyEven) and [here](https://github.com/fhinkel/PerformanceProfiling). For more talks on V8, try [this playlist](https://www.youtube.com/playlist?list=PL65pp6Tpk692lL85jvoOAT_e9Yuzz_nwA).
 # Public speaking
-### [November 2018: JSConf Columbia](https://jsconf.co/)
+### [January 2019: NG Atlanta](http://ng-atl.org/)
+
+### [November 2018: JSConf Colombia](https://jsconf.co/)
 
 ### [October 2018: NodeConf Argentina](https://2018.nodeconf.com.ar/)
 
