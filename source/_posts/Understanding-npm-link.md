@@ -7,7 +7,7 @@ tags:
   - git
   - nodejs
 ---
-### Simultaneously Working on Application and Dependency
+#### Simultaneously Working on Application and Dependency
 
 Sometimes you need to work on application code and a dependency at the same time. You might be the author of a dependency and don’t have good test coverage yet. The application can serve as an end-to-end test for the dependency. Maybe you need to debug an issue in your application and the problem seems to be in the dependency sources.
 
@@ -15,7 +15,7 @@ Sometimes you need to work on application code and a dependency at the same time
 
 You could make changes in `node_modules` and manually copy the changes to the `git` repository of the dependency once you are done. But there is a much cleaner approach: `npm link`.
 
-### Usage
+## Usage
 Package linking is a two-step process:
 
 1. Create a global symlink for a dependency with `npm link`. A **symlink**, short for symbolic link, is a shortcut that points to another directory or file on your system.
