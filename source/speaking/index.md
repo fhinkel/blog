@@ -21,7 +21,7 @@ My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDo
 
 > Node.js 10 just entered Long Term Support (LTS). Let’s look at some exciting new features and what the future holds for Node.js Core.
 
-### [August 2018: Cloud Next Extended 2018 @GDGNYC](https://www.meetup.com/gdgnyc/events/244123962/)
+### [September 2018: NYC Nodejs](https://www.meetup.com/nodejs/events/254616023/)
 
 ### [May 2018: RevolutionConf](https://revolutionconf.com/)
 
