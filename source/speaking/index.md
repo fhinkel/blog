@@ -5,7 +5,23 @@ description: Franziska's public speaking appearances
 My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDoTheyEven) and [here](https://github.com/fhinkel/PerformanceProfiling). For more talks on V8, try [this playlist](https://www.youtube.com/playlist?list=PL65pp6Tpk692lL85jvoOAT_e9Yuzz_nwA).
 # Public speaking
 
-[comment]: <> (May 2019: Fullstack NYC https://skillsmatter.com/conferences/11077-fullstack-nyc-2019-the-conference-on-javascript-node-and-internet-of-things?admin_preview=true)
+### [April 2020: JS Kongress](js-kongress.com)
+
+### [April 2020: HolyJS Piter](holyjs-piter.ru)
+
+### [December 2019: Node+JS Interactive](events19.linuxfoundation.org)
+
+### [November 2019: GOTO Copenhagen](gotocph.com)
+
+### [November 2019: NodeConfEU](www.nodeconf.eu)
+
+### [October 2019: International JavaScript Conference 2019](javascript-conference.com)
+
+### [October 2019: Concatenate](www.concatenate.dev)
+
+### May 2019: Full Stack NYC Skills Matter
+
+### May 2019: Google IO
 
 ### [January 2019: Covalence](http://www.covalenceconf.com/)
 
