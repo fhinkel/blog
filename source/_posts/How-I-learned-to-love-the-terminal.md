@@ -1,13 +1,16 @@
 ---
 title: "How I learned to love the\_terminal"
 date: 2019-11-08 08:38:57
-tags: 
-  - bash, 
+tags:
+  - bash,
   - terminal
   - beginners
   - linux
 ---
+
 *An introduction to the command line.*
+
+it's almost always available (unlike some GUI tools that must be installed); some people have to reduce their mouse use for ergo reasons; you can save frequently-used commands as aliases and save time; your bash history will save your bacon at least once when you forget how to do something (but watch out, if you have cleartext creds -- like making curl requests w/API keys or connecting to dbs w/ --password, those will be in your history ...)
 
 Are you unfamiliar with the command line? Here are some tips that'll make working in the terminal much easier.
 
@@ -17,13 +20,13 @@ Use the **arrow up** and **arrow down** keys to iterate over the last used comma
 
 Use **tab completion** to complete commands, directories and files, and even some parameters. Start typing one or two characters of a command. Then hit tab twice. If that gives you several options, type a few more letters and then hit tab again. You should never type out a full filename. Use tab aggressivly. It's muscle memory you need to build if you want to be fast on the command line.
 
-If you remember parts of a command, not necessarily the beginning, you can search for that command with **Ctrl R**. Type Ctrl R, this starts **reverse-i-search**. Then start typing your command. You'll see a suggestion. You can keep typing to further refine your search results or hit Ctrl R to cycle through the commands that match the search query in reverse order. 
+If you remember part of a command, but not necessarily the beginning, you can search for that command using **reverse-i-search**. To use reverse-i-search, press Ctrl+R, then start typing the command. If there are commands that match what you've typed, you'll see a suggestion. You can keep typing to further refine your search results or press Ctrl+R again to cycle through the commands that match your search query in reverse order. 
 
 ## Navigate around
 
 Use `cd ..` to navigate up one directory. Use `cd` to jump to your home directory. This is the same as `cd ~/`. Use `cd /` to jump to the root directory and `cd -` to go back to the last directory. 
 
-Jump to the beginning and end of the line with **Ctrl A** and **Ctrl E**.
+Jump to the beginning and end of the line with **Ctrl A** and **Ctrl E**. You can move word by word with **option arrow left** and **option arrow right**.
 
 When you realize that you're typing the wrong command, use **Ctrl C** to start over. This is faster than deleting the command character by character.  
 
@@ -67,3 +70,5 @@ Be adventurous. Don't let the terminal intimidate you! Once you know some basics
 
 
 ¹ .bash_profile is the default config for bash on MacOS. On Linux, use .bashrc.
+
+*Many thanks to Amy Unruh, Sofia Leon, ErinMcKean, Sandra Friesen, and Sarah Clark for their thoughtful reviews and comments.**
