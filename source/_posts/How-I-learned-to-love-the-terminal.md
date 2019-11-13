@@ -8,11 +8,14 @@ tags:
   - linux
 ---
 
+
 *An introduction to the command line.*
 
-it's almost always available (unlike some GUI tools that must be installed); some people have to reduce their mouse use for ergo reasons; you can save frequently-used commands as aliases and save time; your bash history will save your bacon at least once when you forget how to do something (but watch out, if you have cleartext creds -- like making curl requests w/API keys or connecting to dbs w/ --password, those will be in your history ...)
+Knowing your way around the commnand line has many benefits. With a bit of practice, you can accomplish many tasks much faster on the command line than using any other tool.
 
-Are you unfamiliar with the command line? Here are some tips that'll make working in the terminal much easier.
+The command line is almost always available, unlike some GUI tools that must be installed. You can save frequently-used commands as aliases and save time. Your bash history will save your bacon at least once when you forget how to do something. When you ssh into a remote machine, such as your work station or a virtual machine in the cloud, you can use the command line instead of a slow GUI.
+
+Here are some tips that'll make working on the command line much easier.
 
 ## Shortcuts instead of typing full commands
 
@@ -32,26 +35,25 @@ When you realize that you're typing the wrong command, use **Ctrl C** to start o
 
 ## Hidden config files
 
-To see hidden files, i.e., filenames that start with a dot, use `ls -la`. Check out the hidden .gitconfig in your home directory. Or edit the .gitignore file in a git project to exclude files from revision control. You can configure a lot of tools via a dot file. Many follow the convention of the config file name ending in rc ("run command"), like .npmrc for npm config settings. 
+To see hidden files, i.e., filenames that start with a dot, use `ls -la`. Check out the hidden .gitconfig in your home directory. Or edit the .gitignore file in a git project to exclude files from source control. You can configure a lot of tools via a dot file. Many follow the convention of the config file name ending in rc ("run command"), like .npmrc for npm config settings. 
 
 ## Configure your terminal
 
 The config file .bash_profile determines how your terminal, more specifically bash, behaves¹. The .bash_profile file is in your home directory (`~/`) . In this file you can do things like
 
-* specify shortcuts with `alias`,
-* configure your prompt, 
+* specify shortcuts with `alias`
+* configure your prompt
 * set environment variables.
 
 ## Git on the command line
 
-If you use git on the command line, there are a few tricks to make your life easier. Enable tab completion for git and configure custom shortcuts like `git co` instead of `git checkout`. For me, the most important feature is to always see what branch I'm on. 
+If you use git on the command line, there are a few tricks to make your life easier. You can enable tab completion for git and configure custom shortcuts like `git co` for `git checkout`. For me, the most important feature is to always see what branch I'm on. 
 
-{% asset_img terminal.png %}
-My bash shows the current directory and the branch I'm on if I'm in a git directory.
+![Terminal where the prompt shows the current directory and git branch](https://thepracticaldev.s3.amazonaws.com/i/4g00gmm30d4xlb5laa8s.png)
+
+My bash shows the current directory and the branch I'm on if I'm in a git directory. I configure this behavior in my `.bash_profile` with the following lines:
 
 ```
-# Configuration in .bash_profile
-
 # The next line enables git autocompletion
 . ~/.git-completion.bash
 
@@ -61,8 +63,7 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='\[\e[35m\]\w$(__git_ps1 " (%s)")\$\[\e[0m\] '
 ```
 
-Download the scripts from the git source code mirror and follow the instructions:  [.git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) and [.git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash). 
-You can change the color of the prompt. I use different colors on different machines to easily see what machine I'm ssh'ed into.
+Download the scripts from the git source code mirror and follow the instructions:  [.git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) and [.git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash). You can customize the color of the prompt. I use different colors on different machines to easily see what machine I'm ssh'ed into.
 
 ## Most importantly 
 
@@ -71,4 +72,4 @@ Be adventurous. Don't let the terminal intimidate you! Once you know some basics
 
 ¹ .bash_profile is the default config for bash on MacOS. On Linux, use .bashrc.
 
-*Many thanks to Amy Unruh, Sofia Leon, ErinMcKean, Sandra Friesen, and Sarah Clark for their thoughtful reviews and comments.**
+*Many thanks to Amy Unruh, Sofia Leon, ErinMcKean, Sandra Friesen, and Sarah Clark for their thoughtful reviews and comments.*
