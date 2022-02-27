@@ -5,10 +5,6 @@ description: Franziska's public speaking appearances
 My slides are on GitHub, e.g., [here](https://github.com/fhinkel/JSEngines-HowDoTheyEven) and [here](https://github.com/fhinkel/PerformanceProfiling). For more talks on V8, try [this playlist](https://www.youtube.com/playlist?list=PL65pp6Tpk692lL85jvoOAT_e9Yuzz_nwA).
 # Public speaking
 
-### [April 2020: JS Kongress](js-kongress.com)
-
-### [April 2020: HolyJS Piter](holyjs-piter.ru)
-
 ### [December 2019: Node+JS Interactive](events19.linuxfoundation.org)
 
 ### [November 2019: GOTO Copenhagen](gotocph.com)
