@@ -1,4 +1,9 @@
 [
+   {
+      "name":"teeny-request",
+      "url":"https://github.com/googleapis/teeny-request",
+      "desc":"Like request, but much smaller - and with less options. Uses node-fetch under the hood. Pop it in where you would use request. Improves load and parse time of modules."
+   },
     {
        "name":"V8",
        "url":"https://github.com/v8/v8/commits?author=fhinkel",
