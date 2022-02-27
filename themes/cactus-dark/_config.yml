@@ -49,4 +49,4 @@ plugins:
 miscellaneous:
     open_graph: # see http://ogp.me
         twitter_id: '@fhinkel'
-        image: images/hinkelmannSmall.jpeg
+        image: https://fhinkel.rocks/images/hinkelmannSmall.jpeg
