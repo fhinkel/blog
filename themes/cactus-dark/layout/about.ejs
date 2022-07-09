@@ -2,14 +2,18 @@
     <% if (config.description) { %>
       <%- markdown(config.description) %>
     <% } %>
+    <img width="560" src="/images/hinkelmann.jpeg"></img>
+    <% if (config.long_description) { %>
+      <%- markdown(config.long_description) %>
+    <% } %>
     <p style="display: inline">
       <% if (theme.customize.social_links) { %>
-        Find her on
+        Find me on
         <ul id="socialinfo">
           <% for(var i in theme.customize.social_links) { %>
             <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>"><i class="fa fa-<%= i %>"></i></a></li>
           <% } %>
-        </ul> or read her <a href=https://fhinkel.github.io/images/Hinkelmann.pdf>Resume</a>.
+        </ul>.
       <% } %>
     </p>
     <p style="display: inline"><b>Please get in touch via email (franziska.hinkelmann@gmail.com) with any inquiries.</b></p>

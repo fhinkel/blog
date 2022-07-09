@@ -1,10 +1,9 @@
 nav:
   Home: /
+  ##Coaching: /coaching/
   Writing: /archives/
   Public Speaking: /speaking/
   About: /about/
-
-##: http://fhinkel.github.io
 
 customize:
     gravatar:
