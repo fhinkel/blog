@@ -4,9 +4,9 @@ description: Free career coaching for software engineers
 ---
 # Free Coaching Sessions for Women in Tech
 
-I provide one-on-one coaching to individuals looking for support, at any stage. I’m eager to help you grow into your own leadership style, and make management work for, and not against, you. My expertise is in backend development with a focus on performance optimization, FAANG interviews, developer relations, and people management. 
+I provide one-on-one coaching to individuals looking for support, at any stage. My expertise is in backend software engineering, career development, FAANG interviews, developer relations, Cloud, and people management. 
 
-We’ll meet whenever you need a gut check, advice, or an outside perspective from an experienced engineering leader in 45-minute video calls. I’m also happy to help you brainstorm and edit documentation, comms plans, career ladders, and more.
+We’ll meet whenever you need an outside perspective from an experienced engineering leader via video chat. I’m also happy to help you brainstorm and edit your resume and job applications.
 
 Meeting with me is like having a one-on-one with a manager who cares deeply about, and is invested in, you and your own growth. I'm there to give you feedback, advice, and most importantly, to help you to introspect and find the answers that already live inside of you.
 
