@@ -4,9 +4,8 @@
 
 # Site
 title: Franziska Hinkelmann, Ph.D.
-subtitle: Principal Engineering Manager at Microsoft. Node.js Monkey Patcher.
-description: Principal Engineering Manager at Microsoft. Member of Node.js Technical Steering Committee. 
-long_description: I'm a people and engineering leader who likes building developer platforms. I'm a Node.js collaborator and an elected member of the Node.js Technical Steering Committee. I currently lead a team of 20+ engineers at Microsoft Cloud. After my Ph.D. in Mathematics in 2011, I changed my career as software engineer in Munich, Germany. I joined Google in 2016. First on the Chrome V8 team, the compiler for JavaScript used in many browsers and Node.js. In 2018, I transferred to Google Cloud DevRel with a focus on Node.js. In 2022, I joined Micrsoft Cloud to lead the JavaScript Advocacy team. Now I lead several teams in Cloud Advocacy with a total of 25 reports. 
+# subtitle: Principal Engineering Manager at Microsoft. Node.js Monkey Patcher.
+description: Principal Engineering Manager at Microsoft. Node.js Technical Steering Committee member. Former compiler engineer on Google's Chrome V8 team. Pronouns she/they.
 author: Franziska Hinkelmann
 language: english
 timezone: America/New_York
