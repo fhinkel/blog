@@ -1,57 +1,79 @@
 <section id="about">
-    <% if (config.description) { %>
-      <%- markdown(config.description) %>
-    <% } %>
-    <img width="560" src="/images/hinkelmann.jpeg"></img>
-    <% if (config.long_description) { %>
-      <%- markdown(config.long_description) %>
-    <% } %>
-    <p style="display: inline">
-      <% if (theme.customize.social_links) { %>
-        Find me on
-        <ul id="socialinfo">
-          <% for(var i in theme.customize.social_links) { %>
-            <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>"><i class="fa fa-<%= i %>"></i></a></li>
-          <% } %>
-        </ul>.
+  <% if (config.description) { %>
+    <%- markdown(config.description) %>
       <% } %>
-    </p>
-    <!-- <p style="display: inline"><b>Please get in touch via email (franziska.hinkelmann@gmail.com) with any inquiries.</b></p> -->
+        <img width="560" src="/images/hinkelmann.jpeg"></img>
+        <% if (config.long_description) { %>
+          <%- markdown(config.long_description) %>
+            <% } %>
+              <p style="display: inline">I I lead and mentor a 25 person, globally distributed, Developer Relations team
+                in Microsoft Cloud Advocacy.
+                <br><br>
+                With more than a decade of
+                industry experience as a Software engineer, I have a strong open source focus. I'm a Node.js
+                core contributor and elected member of the Node.js Technical Steering Committee. I was a compiler engineer
+                on on the Chrome V8 team, where I focused on performance
+                improvements.
+                <br><br>
+
+                As an engineer in Google Cloud DevRel, I keynoted multipled conferences and wrote several blog posts
+                with more than 100K views. My focus was on Node.js performance and large scale tooling for
+                documentation.
+                <br><br>
+
+              </p>
+              <p style="display: inline">
+                <% if (theme.customize.social_links) { %>
+                  Find me on
+                  <ul id="socialinfo">
+                    <% for(var i in theme.customize.social_links) { %>
+                      <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>"><i
+                            class="fa fa-<%= i %>"></i></a></li>
+                      <% } %>
+                  </ul>.
+                  <% } %>
+              </p>
+
+              <!-- <p style="display: inline"><b>Please get in touch via email (franziska.hinkelmann@gmail.com) with any inquiries.</b></p> -->
+</section>
+
+<% if (site.data.oss) { %>
+  <section id="oss">
+    <span class="h1">Open Source Contributions</span>
+    <ul class="project-list">
+      <% for(var obj in site.data.oss){ %>
+        <li class="project-item">
+          <a href="<%= site.data.oss[obj].url %>">
+            <%= site.data.oss[obj].name %>
+          </a>: <%= site.data.oss[obj].desc %>
+        </li>
+        <% } %>
+    </ul>
   </section>
+  <% } %>
 
-  <% if (site.data.oss) { %>
-    <section id="oss">
-      <span class="h1">Open Source Contributions</span>
-      <ul class="project-list">
-        <% for(var obj in site.data.oss){ %>
-          <li class="project-item">
-            <a href="<%= site.data.oss[obj].url %>"><%= site.data.oss[obj].name %></a>: <%= site.data.oss[obj].desc %>
-          </li>
-        <% } %>
-      </ul>
-    </section>
-    <% } %>
-    
-    
+
     <% if (site.data.projects) { %>
-    <section id="projects">
+      <section id="projects">
         <span class="h1">Projects</span>
-      <ul class="project-list">
-        <% for(var obj in site.data.projects){ %>
-          <li class="project-item">
-            <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%= site.data.projects[obj].desc %>
-          </li>
-          <li><br></li>          
-        <% } %>
-      </ul>
-    </section>
-    <% } %>
-  
+        <ul class="project-list">
+          <% for(var obj in site.data.projects){ %>
+            <li class="project-item">
+              <a href="<%= site.data.projects[obj].url %>">
+                <%= site.data.projects[obj].name %>
+              </a>: <%= site.data.projects[obj].desc %>
+            </li>
+            <li><br></li>
+            <% } %>
+        </ul>
+      </section>
+      <% } %>
 
 
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="content" itemprop="articleBody">
-      <%- page.content %>
-    </div>
-  </article>
+
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+          <div class="content" itemprop="articleBody">
+            <%- page.content %>
+          </div>
+        </article>
