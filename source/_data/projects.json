@@ -3,10 +3,5 @@
         "name":"Runtime Type Information",
         "url":"https://github.com/fhinkel/type-profile",
         "desc":"Collect runtime type information 😻 of your JavaScript code. The V8 inspector protocol provides access to the type information. Since the inspector is available in Node, it's easy to write modules that utilize type information. This repo is a very simple demo of this."
-    },
-    {
-       "name":"This Site",
-       "url":"https://github.com/fhinkel/blog",
-       "desc":"Playing with templates 😊. This site is built with Hexo and the Cactus-dark theme."
     }
 ]
