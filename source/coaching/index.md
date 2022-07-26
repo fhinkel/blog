@@ -2,7 +2,7 @@
 title: Franziska Hinkelmann | Public speaking
 description: Free career coaching for software engineers
 ---
-# Free Coaching Sessions for Women in Tech
+# Career Coaching
 
 I provide one-on-one coaching to individuals looking for support, at any stage. My expertise is in backend software engineering, career development, FAANG interviews, developer relations, Cloud, and people management. 
 
@@ -33,7 +33,7 @@ No time slot that works for you? Join the **waitlist**.
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
-# Book your free session now.
+# Book your session now
 **I'm offering free coaching sessions for women in tech.**
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/fhinkel" style="min-width:320px;height:630px;"></div><script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
