@@ -10,6 +10,10 @@ We’ll meet whenever you need an outside perspective from an experienced engine
 
 Meeting with me is like having a one-on-one with a manager who cares deeply about, and is invested in, you and your own growth. I'm there to give you feedback, advice, and most importantly, to help you to introspect and find the answers that already live inside of you.
 
+As a career coach specializing in high tech and Silicon Valley, I harness the power of deep coaching questions to help you connect the dots between where you are and where you want to go — in your career and in your life.
+
+Most often, I work with you to strategically and intentionally connect the dots between your career story and the companies and positions you are targeting in your job search.
+
 # Waitlist
 
 No time slot that works for you? Join the **waitlist**. 
