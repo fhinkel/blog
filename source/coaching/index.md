@@ -1,18 +1,16 @@
 ---
 title: Franziska Hinkelmann | Public speaking
 description: Free career coaching for software engineers
+tags: FAANG, career coaching, leadership coaching, excecutive coaching
 ---
 # Career Coaching
 
-I provide one-on-one coaching to individuals looking for support, at any stage. My expertise is in backend software engineering, career development, FAANG interviews, developer relations, Cloud, and people management. 
+I provide one-on-one coaching to individuals looking for support, at any stage. As a career coach specializing in high tech and FAANG, my expertise includes backend software engineering, developer relations, Cloud development, and people management. 
 
-We’ll meet whenever you need an outside perspective from an experienced engineering leader via video chat. I’m also happy to help you brainstorm and edit your resume and job applications.
+We’ll meet whenever you need an outside perspective from an experienced engineering leader via video chat. Meeting with me is like having a one-on-one with a manager who cares deeply about you and your own growth. I'm here to give you feedback, advice, and most importantly, to help you to introspect and find the answers that are inside of you. 
 
-Meeting with me is like having a one-on-one with a manager who cares deeply about, and is invested in, you and your own growth. I'm there to give you feedback, advice, and most importantly, to help you to introspect and find the answers that already live inside of you.
+Most often, I work with you to strategically and intentionally connect the dots between your career story and the companies and positions you are targeting in your job search. I’m also happy to help you brainstorm and edit your resume and job applications.
 
-As a career coach specializing in high tech and Silicon Valley, I harness the power of deep coaching questions to help you connect the dots between where you are and where you want to go — in your career and in your life.
-
-Most often, I work with you to strategically and intentionally connect the dots between your career story and the companies and positions you are targeting in your job search.
 
 # Waitlist
 
