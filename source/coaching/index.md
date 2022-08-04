@@ -1,5 +1,5 @@
 ---
-title: Franziska Hinkelmann | Public speaking
+title: Franziska Hinkelmann | Career Coaching for Software Engineers
 description: Free career coaching for software engineers
 tags: FAANG, career coaching, leadership coaching, excecutive coaching
 ---

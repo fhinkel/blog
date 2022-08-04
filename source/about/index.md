@@ -1,5 +1,5 @@
 ---
-title: Franziska Hinkelmann
+title: Franziska Hinkelmann | About
 layout: about
 ---
 
