@@ -1,6 +1,6 @@
 ---
 title: Franziska Hinkelmann | Career Coaching for Software Engineers
-description: Free career coaching for software engineers
+description: Free Career Coaching for Women in Tech
 tags: FAANG, career coaching, leadership coaching, excecutive coaching
 ---
 # Career Coaching
