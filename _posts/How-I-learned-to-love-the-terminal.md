@@ -3,7 +3,7 @@ title: "How I Learned to Love the Terminal"
 excerpt: 'An introduction to the command line.
 Knowing your way around the commnand line has many benefits. With a bit of practice, you can accomplish many tasks much faster on the command line than using any other tool.'
 coverImage: '/assets/blog/How-I-learned-to-love-the-terminal/cover.jpg'
-date: '2019-11-08T05:35:07.322Z'
+date: '2021-11-08T05:35:07.322Z'
 author:
   name: Franziska Hinkelmann
   picture: '/assets/blog/authors/franziska.jpeg'

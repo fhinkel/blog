@@ -2,7 +2,7 @@
 title: Understanding Git-Bisect, i.e. Use Binary Search to Find the Change that Introduced a Bug
 excerpt: 'Git is a powerful tool. Once you’ve mastered commit and merge, there are endless possibilities. A very useful one is git-bisect. It helps you find a commit that introduced a certain change in behavior.'
 coverImage: '/assets/blog/Understanding-git-bisect/img1.png'
-date: '2019-02-03T05:35:07.322Z'
+date: '2021-02-03T05:35:07.322Z'
 author:
   name: Franziska Hinkelmann
   picture: '/assets/blog/authors/franziska.jpeg'
