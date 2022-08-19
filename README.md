@@ -1,4 +1,4 @@
-New blog, who dis?
+Fhinkel's blog, deployed at [fhinkel.rocks](fhinkel.rocks).
 
 # Notes
 
