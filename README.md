@@ -1,9 +1,5 @@
-# Blog
+New blog, who dis?
 
-## Notes to myself
+# Notes
 
-Make changes in `source/_posts`. 
-
-Deploy on push to main. 
-
-Delete `speaking/index.html` in `public` if you want to regenerate it. Same for the archive and landing  page.
+`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
