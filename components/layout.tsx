@@ -11,11 +11,11 @@ type Props = {
 const Layout = ({ preview, children }: Props) => {
   return (
     <>
-      <GoogleAnalytics />
       <Meta />
       <div className="min-h-screen">
         <Alert preview={preview} />
         <main>{children}</main>
+        <GoogleAnalytics />
       </div>
       <Footer />
     </>
