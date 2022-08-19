@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Post from '../interfaces/post'
+import { HOME_OG_IMAGE_URL } from '../lib/constants'
 
 type Props = {
   allPosts: Post[]
@@ -18,7 +19,9 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>Franziska Hinkelmann, Ph.D.</title>
+          <title>Franziska Hinkelmann, Ph.D. | Blog</title>
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+
         </Head>
         <Container>
           <Intro />

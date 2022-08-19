@@ -5,6 +5,7 @@ import Intro from '../components/intro'
 import CoverImage from '../components/cover-image'
 import { InlineWidget } from "react-calendly";
 import Subscribe from '../components/subscribe'
+import { HOME_OG_IMAGE_URL } from '../lib/constants'
 
 const coverImage = '/assets/blog/conferenceHeadshot.jpeg'
 
@@ -14,6 +15,7 @@ export default function About() {
       <Layout>
         <Head>
           <title>Career Coaching Franziska Hinkelmann, Ph.D.</title>
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <Intro />

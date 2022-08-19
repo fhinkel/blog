@@ -3,6 +3,8 @@ import Layout from '../components/layout'
 import Head from 'next/head'
 import Intro from '../components/intro'
 import CoverImage from '../components/cover-image'
+import { HOME_OG_IMAGE_URL } from '../lib/constants'
+
 
 const coverImage = '/assets/blog/conferenceHeadshot.jpeg'
 
@@ -11,7 +13,8 @@ export default function About() {
     <>
       <Layout>
         <Head>
-          <title>Franziska Hinkelmann, Ph.D.</title>
+          <title>Franziska Hinkelmann, Ph.D. | About </title>
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <Intro />
