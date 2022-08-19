@@ -1,5 +1,6 @@
 import markdownStyles from './markdown-styles.module.css'
 import Subscribe from './subscribe'
+import Script from 'next/script'
 
 type Props = {
   content: string
@@ -18,6 +19,7 @@ const PostBody = ({ content }: Props) => {
           <Subscribe m={`I'll only send emails when new content is posted. No spam.`} />
         </div>
       </div>
+      <Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
     </div>
   )
 }

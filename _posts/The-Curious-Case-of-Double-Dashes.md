@@ -52,14 +52,13 @@ This searches for the string ‘-v’ rather than interpreting it as the option 
 
 Double dashes are incredibly useful for `npm` scripts. Anything after the double dashes is not an option of `npm`, but a parameter for the script that `npm` executes.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL, you can pass parameters with -- to an npm script, like `npm run lint -- --fix` 🤯 <a href="https://t.co/LVusMurAIX">pic.twitter.com/LVusMurAIX</a></p>&mdash; Franziska Hinkelmann, Ph.D. (@fhinkel) <a href="https://twitter.com/fhinkel/status/1058787699912511488?ref_src=twsrc%5Etfw">November 3, 2018</a></blockquote>
+
 If we want to fix linter errors, we do not need to look up which linter is specified in `package.json`. As long as the linter understands `--fix`, we simply run
 
 ```bash
     npm run lint -- --fix
 ```
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL, you can pass parameters with -- to an npm script, like `npm run lint -- --fix` 🤯 <a href="https://t.co/LVusMurAIX">pic.twitter.com/LVusMurAIX</a></p>&mdash; Franziska Hinkelmann, Ph.D. (@fhinkel) <a href="https://twitter.com/fhinkel/status/1058787699912511488?ref_src=twsrc%5Etfw">November 3, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-### What can you do with --?
+---
 
 I hope this shed some light on why we sometimes have bare double dashes in our commands. Where do you use `--`? I would love to hear your tips in the comment section.
