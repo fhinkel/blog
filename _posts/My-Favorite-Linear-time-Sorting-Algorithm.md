@@ -1,6 +1,6 @@
 ---
 title: 'My Favorite Linear-time Sorting Algorithm'
-excerpt: 'Counting sort with a twist'
+excerpt: 'Counting sort with a twist. Given an unsorted array of numbers, find the maximum difference between the successive elements in its sorted form. The numbers can be negative or decimals. The solution to this problem runs in linear time, independent of how far the input numbers are apart from each other. It requires linear additional space.'
 coverImage: '/assets/blog/My-Favorite-Linear-time-Sorting-Algorithm/img2.png'
 date: '2019-01-30T05:35:07.322Z'
 author:
