@@ -18,6 +18,7 @@ type Props = {
 }
 
 export default function Post({ post, morePosts, preview }: Props) {
+  const imageLink = `https://fhinkel.rocks${post.ogImage.url}`
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -35,7 +36,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 <title>
                   {post.title}
                 </title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <meta property="og:image" content={imageLink} />
               </Head>
               <PostHeader
                 title={post.title}
