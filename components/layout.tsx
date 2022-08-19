@@ -15,9 +15,9 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen">
         <Alert preview={preview} />
         <main>{children}</main>
-        <GoogleAnalytics />
       </div>
       <Footer />
+      <GoogleAnalytics />
     </>
   )
 }
