@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import { HOME_OG_IMAGE_URL } from '../lib/constants'
 
-const Meta = () => {
+type Props = {
+  imageUrl?: string
+}
+const Meta = ({ imageUrl }: Props) => {
   return (
     <Head>
       <link
@@ -37,7 +40,7 @@ const Meta = () => {
         content={`Franziska Hinkelmann, Ph.D., Principal Engineering Manager at Microsoft. Node.js 
         Technical Steering Committee member. Former compiler engineer on Google’s Chrome V8 team. Pronouns she/they.`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image" content={imageUrl ? imageUrl : HOME_OG_IMAGE_URL} />
     </Head>
   )
 }
