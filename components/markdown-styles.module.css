@@ -35,3 +35,7 @@
 .markdown figcaption {
   @apply text-sm text-center italic;
 }
+
+.markdown video-card div {
+  @apply mx-auto aspect-w-16 aspect-h-9;
+}

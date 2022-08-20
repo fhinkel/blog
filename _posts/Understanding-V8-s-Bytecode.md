@@ -23,7 +23,9 @@ When V8 compiles JavaScript code, the parser generates an abstractsyntax tree. A
 
 If you want to know why we have two execution modes, you can check out my video from JSConfEU:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p-iiEDtpy6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video-card><div>
+<iframe src="https://www.youtube.com/embed/p-iiEDtpy6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</video-card></div>
 
 **Bytecode is an abstraction of machine code**. Compiling bytecode to machine code is easier if the bytecode was designed with the same computational model as the physical CPU. This is why interpreters are often register or stack machines. **Ignition is a register machine with an accumulator register.**
 

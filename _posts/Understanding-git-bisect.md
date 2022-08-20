@@ -11,7 +11,9 @@ ogImage:
 ---
 Git is a powerful tool. Once you’ve mastered commit and merge, there are endless possibilities. A very useful one is [git-bisect](https://git-scm.com/docs/git-bisect). It helps you find a commit that introduced a certain change in behavior.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dfDBNcYRKcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video-card><div>
+<iframe  src="https://www.youtube.com/embed/dfDBNcYRKcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></video-card>
 
 When you find a **regression, something broken that used to work**, use git-bisect to find the commit that broke it. Mark the current commit as bad and mark an old commit, where that feature still worked, as good. Git-bisect will then bisect all the changes between those two commits with a binary search. At every step, you are asked to mark the commit as good or bad until bisect finds **the first bad commit**.
 
@@ -43,4 +45,6 @@ If you want to try out git-bisect, here is a [demo repository](https://github.co
 
 Instead of testing each step manually, you can run git-bisect with a script. It will use the script at each step and automatically mark the commit, until it finds the **first bad commit**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFavI1XgxYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video-card><div>
+<iframe src="https://www.youtube.com/embed/pFavI1XgxYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</video-card></div>
