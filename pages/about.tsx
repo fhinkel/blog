@@ -63,6 +63,13 @@ export default function About() {
               .
               <br></br>
               <br></br>
+
+              <a href='https://www.youtube.com/playlist?list=PL65pp6Tpk690HkOh324FqtFYyxFVnEFEX' className='underline hover:text-blue-600 duration-200 transition-colors'>
+                Youtube Playlist of my talks</a> and previous <a className='underline hover:text-blue-600 duration-200 transition-colors' href='https://medium.com/fhinkel/conference-talks-2017-3c0ed426406f'> speaking engagements</a>
+               .
+              <br></br>
+              <br></br>
+
             </div>
           </div>
         </Container>
