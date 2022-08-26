@@ -10,15 +10,15 @@ const Avatar = ({ name, picture, link }: Props) => {
   return (
     <div className="flex items-center">
       <Link href={link}>
-        <a><img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} /></a>
+        <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
       </Link>
       <div className="text-xl font-bold">
-        <Link href={link}>
-          <a className="hover:underline">{name}</a>
+        <Link href={link} className="hover:underline">
+          {name}
         </Link>
       </div>
     </div>
-  )
+  );
 }
 
 export default Avatar
