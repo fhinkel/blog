@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Intro from '../components/intro'
 import CoverImage from '../components/cover-image'
 import { HOME_OG_IMAGE_URL } from '../lib/constants'
+import Link from 'next/link'
 
 
 const coverImage = '/assets/blog/conferenceHeadshot.jpeg'
@@ -56,11 +57,7 @@ export default function About() {
               <a target="_blank" href="https://www.linkedin.com/in/fhinkel/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              , and {' '}
-              <a target="_blank" href="https://medium.com/@fhinkel">
-                <i className="fa-brands fa-medium"></i>
-              </a>
-              .
+              , or reach me at <Link className='underline hover:text-blue-600 duration-200 transition-colors'  href='mailto:me@fhinkel.rocks'>me@fhinkel.rocks</Link>.
               <br></br>
               <br></br>
 

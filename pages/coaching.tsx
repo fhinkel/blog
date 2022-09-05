@@ -6,6 +6,7 @@ import CoverImage from '../components/cover-image'
 import { InlineWidget } from "react-calendly";
 import Subscribe from '../components/subscribe'
 import { HOME_OG_IMAGE_URL } from '../lib/constants'
+import Link from 'next/link'
 
 const coverImage = '/assets/blog/conferenceHeadshot.jpeg'
 
@@ -51,7 +52,8 @@ export default function About() {
 
             <div className="text-3xl mb-3 leading-snug">Wait list</div>
             <div className='my-4'>
-              No time slot available that works for you? Join the wait list.
+              No time slot available that works for you? Join the wait list or reach out 
+              at <Link className='underline hover:text-blue-600 duration-200 transition-colors' href='mailto:coaching@fhinkel.rocks?subject=Coaching Inquiry'>coaching@fhinkel.rocks</Link>.
             </div>
 
             <div className="w-full md:w-9/12 md:max-w-full">
