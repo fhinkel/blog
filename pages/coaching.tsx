@@ -47,7 +47,7 @@ export default function About() {
             <div className="text-3xl mb-3 leading-snug">Book your session now</div>
             <div className=''>I'm offering free coaching sessions for women in tech.</div>
             <div className="App">
-              <InlineWidget url="https://calendly.com/fhinkel" />
+              <InlineWidget url="https://calendly.com/fhinkel/coaching" />
             </div>
 
             <div className="text-3xl mb-3 leading-snug">Wait list</div>
