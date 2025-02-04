@@ -9,8 +9,7 @@ const Intro = () => {
         </Link>
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Principal Engineering Manager at Microsoft. Node.js Technical 
-        Steering Committee member. Former compiler engineer on Google’s Chrome V8 team. Pronouns she/they.
+        Engineering Manager at Google. Node.js Technical Steering Committee member. Former compiler engineer on Google’s Chrome V8 team. Pronouns she/they.
       </h4>
     </section>
   );

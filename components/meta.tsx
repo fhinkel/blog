@@ -33,8 +33,8 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`Franziska Hinkelmann, Ph.D., Principal Engineering Manager at Microsoft. Node.js 
-        Technical Steering Committee member. Former compiler engineer on Google’s Chrome V8 team. Pronouns she/they.`}
+        content={`Franziska Hinkelmann, Ph.D., Engineering Manager at Google. Node.js 
+        Technical Steering Committee member. Former compiler engineer on Google's Chrome V8 team. Pronouns she/they.`}
       />
     </Head>
   )
