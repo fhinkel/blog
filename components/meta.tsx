@@ -34,7 +34,7 @@ const Meta = () => {
       <meta
         name="description"
         content={`Franziska Hinkelmann, Ph.D., Engineering Manager at Google. Node.js 
-        Technical Steering Committee member. Former compiler engineer on Google's Chrome V8 team. Pronouns she/they.`}
+        Technical Steering Committee member. Former director at Microsoft and compiler engineer on Google's Chrome V8 team. Pronouns she/they.`}
       />
     </Head>
   )
