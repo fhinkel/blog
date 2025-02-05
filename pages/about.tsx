@@ -27,7 +27,7 @@ export default function About() {
 
           <div className="max-w-2xl mx-auto">
             <div>
-              I'm a DevRel manager at Google in Cloud Advocacy.
+              I'm a DevRel engineeringmanager at Google in Cloud Advocacy.
               <br />
               <br />
               I have more than a decade of
