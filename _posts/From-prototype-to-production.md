@@ -1,13 +1,13 @@
 ---
 title: 'From Prototype to Production: My Take on Practical Gen AI Deployments on Google Cloud'
 excerpt: "As a Senior Engineering Manager at Google Cloud, I've been right there in the trenches, seeing the incredible excitement around generative AI prototypes. But let's be real: moving these experimental models into robust, production-ready applications is where the real challenge lies."
-coverImage: '/assets/blog/From-prototype-to-production/cover.png'
+coverImage: '/assets/blog/From-prototype-to-production/cover.jpg'
 date: '2025-05-28T05:35:07.322Z'
 author:
   name: Franziska Hinkelmann
   picture: '/assets/blog/authors/franziska.jpeg'
 ogImage:
-  url: '/assets/blog/From-prototype-to-production/cover.png'
+  url: '/assets/blog/From-prototype-to-production/cover.jpg'
 ---
 
 As a Senior Engineering Manager at Google Cloud, I've been right there in the trenches, seeing the incredible excitement around generative AI prototypes. But let's be real: moving these experimental models into robust, production-ready applications is where the real challenge lies. Industry stats show only about 10% of companies successfully get more than 25% of their LLM apps into production. It's a tough nut to crack, balancing real-time response, accuracy, scalability, and crucial enterprise requirements like security and compliance.
