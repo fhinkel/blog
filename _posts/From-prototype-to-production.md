@@ -18,7 +18,7 @@ I've been diving deep into how we can bridge this gap on Google Cloud, and wante
 
 * **MLOps for Gen AI:** Traditional MLOps needs an upgrade. We're now versioning new artifacts like tuning jobs and embeddings, not just code. CI/CD is more vital than ever, and we're even exploring how Gen AI itself can boost pipeline efficiency (think AI-assisted code reviews!). Monitoring has evolved beyond just accuracy to focus on factual consistency, hallucination rates, and bias detection – a whole new world of metrics.
 
-* **Security & Responsible AI:** This is non-negotiable and a top pain point for many. Google's Secure AI Framework (SAIF) guides our holistic security approach. Beyond that, responsible AI means baking in fairness, privacy (hello, differential privacy!), and actively mitigating bias and hallucinations from day one. Vertex AI provides built-in safety filters and tools to help with this.
+* **Security & Responsible AI:** This is non-negotiable and a top pain point for many. Google's [Secure AI Framework](https://safety.google/cybersecurity-advancements/saif/) (SAIF) guides our holistic security approach. Beyond that, responsible AI means baking in fairness, privacy (hello, differential privacy!), and actively mitigating bias and hallucinations from day one. Vertex AI provides built-in safety filters and tools to help with this.
 
 
 I'm curious to hear from you all: What are your biggest challenges or wins in taking Gen AI to production? What tools or strategies are you finding indispensable? Let's discuss in the comments!
