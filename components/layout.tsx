@@ -3,6 +3,7 @@ import Footer from './footer'
 import Meta from './meta'
 import GoogleAnalytics from './analytics'
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 type Props = {
   preview?: boolean
