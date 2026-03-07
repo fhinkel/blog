@@ -20,6 +20,7 @@ const Layout = ({ preview, children }: Props) => {
       <Footer />
       <GoogleAnalytics />
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
