@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Intro from '../components/intro'
 import CoverImage from '../components/cover-image'
 import { InlineWidget } from "react-calendly";
-import Subscribe from '../components/subscribe'
 import { HOME_OG_IMAGE_URL } from '../lib/constants'
 import Link from 'next/link'
 
@@ -56,9 +55,6 @@ export default function About() {
               at <Link className='underline hover:text-blue-600 duration-200 transition-colors' href='mailto:coaching@fhinkel.rocks?subject=Coaching Inquiry'>coaching@fhinkel.rocks</Link>.
             </div>
 
-            <div className="w-full md:w-9/12 md:max-w-full">
-              <Subscribe m={`Get notified when new appointments are available. No spam.`}/>
-            </div>
           </div>
         </Container>
       </Layout>
