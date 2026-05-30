@@ -10,9 +10,9 @@ ogImage:
   url: '/assets/blog/Leading-Engineering-Teams-Through-the-Great-AI-Transition/cover.jpg'
 ---
 
-## The Shift from Writing to Orchestrating
+## From Writing to Orchestrating
 
-For decades, the standard playbook for scaling an engineering organization was predictable: if you needed more features, you hired more engineers. The engineering manager's role was to optimize the pipeline—helping developers write code faster, clear blockers, and ship commits.
+For decades, the standard playbook for scaling an engineering organization was predictable: if you needed more features, you hired more engineers. The engineering manager's role was to optimize the pipeline: helping developers write code faster, clear blockers, and ship commits.
 
 But we are currently living through a quiet revolution. As generative AI shifts from simple autocomplete to autonomous, multi-agent systems, the core unit of engineering work is transforming. Developers are no longer just authors of syntax; they are **conductors of intent**.
 
@@ -20,9 +20,9 @@ For senior leaders, this requires a fundamental rewrite of our management playbo
 
 ---
 
-## 1. Redefining Productivity: Beyond the Commit
+## 1. Redefining Productivity
 
-If an developer can use an agent to spin up a fully functioning microservice in ten minutes, what does a "commit" mean? 
+If a developer can use an agent to spin up a fully functioning microservice in ten minutes, what does a "commit" mean? 
 
 Traditional metrics like PR velocity, lines of code, or story points completed are breaking down. In an AI-assisted environment, optimization of these metrics leads to **noise, not value**. An engineer can easily generate hundreds of lines of code, but if that code introduces subtle architectural debt or security vulnerabilities, productivity has actually gone backward.
 
@@ -34,7 +34,7 @@ As leaders, we must shift our focus:
 
 ---
 
-## 2. The Skills of the AI-Native Developer
+## 2. The AI-Native Developer
 
 We are witnessing a shift in the skillset required to be a successful engineer. While syntax mastery is becoming less critical, three other skills are taking center stage:
 
@@ -54,7 +54,7 @@ Getting high-quality output from AI requires feeding it the right context. Engin
 How do we actually operationalize this transition across a growing engineering organization? Here is a practical roadmap:
 
 ### Guardrails, Not Gates
-Do not block AI adoption out of fear; instead, build secure sandboxes. Ensure your teams are using enterprise-grade tools (like Vertex AI and Gemini CLI) that guarantee data privacy and protect intellectual property. Define clear policies on what can be generated vs. what must be manually authored (e.g., core security algorithms).
+Do not block AI adoption out of fear; instead, build secure sandboxes. Ensure your teams are using enterprise-grade tools (like [Google's Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform)) to securely register, manage, and govern your custom-built agents.
 
 ### Upskilling Junior Engineers
 There is a real risk that AI tools will stunt the growth of junior engineers. If they rely on AI to write all their code, they may never develop the muscle memory required to debug complex systems. 
