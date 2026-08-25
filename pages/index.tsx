@@ -50,7 +50,9 @@ export const getStaticProps = async () => {
     'author',
     'coverImage',
     'excerpt',
-  ])
+    'unlisted',
+    'hidden',
+  ]).filter((post) => !post.unlisted && !post.hidden && (post.unlisted as any) !== 'true' && (post.hidden as any) !== 'true')
 
   return {
     props: { allPosts },
