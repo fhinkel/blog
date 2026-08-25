@@ -3,6 +3,7 @@ title: 'Leading Engineering Teams Through the Great AI Transition'
 excerpt: 'Evaluating engineering productivity used to be about velocity, pull request turnaround, and syntax quality. As coding shifts to orchestrating intent, here is how senior leaders must adapt.'
 coverImage: '/assets/blog/Leading-Engineering-Teams-Through-the-Great-AI-Transition/cover.jpg'
 date: '2026-05-30T10:00:00.000Z'
+unlisted: true
 author:
   name: Franziska Hinkelmann
   picture: '/assets/blog/authors/franziska.jpeg'

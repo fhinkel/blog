@@ -11,6 +11,8 @@ type PostType = {
     url: string
   }
   content: string
+  unlisted?: boolean
+  hidden?: boolean
 }
 
 export default PostType
