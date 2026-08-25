@@ -3,6 +3,7 @@ title: 'Scaling AI-Assisted Engineering'
 excerpt: 'For decades, the core unit of value for a software engineer was the line of code. We were judged by our syntax, our mastery of frameworks, and our ability to manually stitch together logic. But as we move through 2026, I am seeing a fundamental collapse of that model.'
 coverImage: '/assets/blog/Scaling-AI-Assisted-Engineering/cover.jpg'
 date: '2026-03-07T10:00:00.000Z'
+unlisted: true
 author:
   name: Franziska Hinkelmann
   picture: '/assets/blog/authors/franziska.jpeg'
